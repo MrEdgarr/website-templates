@@ -31,3 +31,9 @@
     margin-right: auto;
     height: auto;
 }
+
+@media (max-width: 991px) {
+    .site-block-cover .intro-text {
+        margin-top: 40%;
+    }
+}
