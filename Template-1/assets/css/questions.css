@@ -1,0 +1,51 @@
+#faq-section .heading {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1.5rem 0;
+}
+
+#faq-section .heading > a {
+    padding-left: 4.5rem;
+    position: relative;
+    color: #000;
+}
+#faq-section .heading > a[aria-expanded="false"]:before {
+    font-family: FontAwesome;
+    content: "\f1b0";
+    color: #ccc;
+    position: absolute;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+#faq-section .heading > a[aria-expanded="true"]:before {
+    font-family: FontAwesome;
+    position: absolute;
+    content: "\f1b0";
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    background: #a2c0be;
+    color: #fff;
+    border: 1px solid #a2c0be;
+}
+#faq-section .heading > a::before {
+    font-family: FontAwesome;
+    content: "";
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid #a2c0be;
+    text-align: center;
+    font-size: 18px;
+    top: -0.7px;
+    left: 0;
+    border-radius: 50%;
+}
+
+#faq-section div.box-text {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    padding-left: 4.5rem;
+    color: gray;
+}

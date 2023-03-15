@@ -1,0 +1,19 @@
+#blog-section .blog-entry-img {
+    width: 40rem;
+    margin-right: 1.5rem;
+}
+#blog-section .blog-entry-text a {
+    color: #000;
+}
+#blog-section .blog-entry-text a:hover {
+    color: #a2c0be;
+}
+#blog-section .blog-entry-text span {
+    color: #b3b3b3;
+    display: block;
+    padding: 1rem 0;
+}
+
+#blog-section .blog-entry-text p {
+    color: gray;
+}

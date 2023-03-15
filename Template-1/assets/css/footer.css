@@ -1,0 +1,43 @@
+.site-footer {
+    background: #333333;
+    padding: 4rem 0;
+}
+.site-footer .footer-heading {
+    font-size: 2rem;
+    color: #fff;
+}
+.site-footer p {
+    color: #737373;
+}
+.site-footer ul li {
+    margin-bottom: 1.5rem;
+}
+.site-footer a {
+    color: #999999;
+}
+.site-footer .form-control {
+    height: 43px;
+    border-radius: 5px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    font-size: 1.6rem;
+}
+.site-footer .btn {
+    height: 43px;
+    line-height: 1;
+    border: none !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    background: #fff !important;
+    color: #000 !important;
+}
+.site-footer .border-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+@media screen and (min-width: 768px) {
+    .site-footer {
+        padding: 8rem 0;
+    }
+}

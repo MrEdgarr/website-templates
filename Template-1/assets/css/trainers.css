@@ -1,0 +1,50 @@
+#trainers-section {
+    background: #567876;
+    color: white;
+}
+
+#trainers-section .paws .icon-paws {
+    color: white;
+}
+#trainers-section .heading-section h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#trainers-section .trainer img {
+    margin-bottom: 5rem;
+}
+
+#trainers-section .trainer > div h3 {
+    font-size: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+#trainers-section .trainer > div p {
+    margin-bottom: 2rem;
+}
+#trainers-section .trainer > div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#trainers-section .trainer > div ul li {
+    display: inline-block;
+}
+#trainers-section .trainer > div ul li a {
+    color: #000;
+}
+#trainers-section .trainer > div ul li span {
+    background: #fff;
+    color: #000;
+    transition: 0.3s all ease;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3rem;
+    display: inline-block;
+}
+#trainers-section .trainer > div ul li span:hover{
+    transform: translateY(-0.5rem);
+}

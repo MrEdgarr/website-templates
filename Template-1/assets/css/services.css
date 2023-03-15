@@ -1,0 +1,12 @@
+#services-section .blog-service img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+#services-section .blog-service h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+#services-section .blog-service p {
+    color: gray;
+}

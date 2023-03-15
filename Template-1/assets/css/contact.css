@@ -1,0 +1,29 @@
+#contact-section .bg-primary {
+    color: #567876;
+    background-color: #a2c0be !important;
+}
+#contact-section .heading {
+    color: #405a58;
+}
+#contact-section .form-control {
+    border-color: transparent;
+}
+#contact-section .form-control {
+    height: 43px;
+    border-radius: 5px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    font-size: 1.6rem;
+}
+textarea.form-control {
+    height: auto !important;
+}
+.address li {
+    color: #a8b1b8;
+    margin-bottom: 20px;
+}
+.address li span {
+    color: #fff;
+}

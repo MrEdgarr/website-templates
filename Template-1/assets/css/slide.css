@@ -1,0 +1,33 @@
+.site-block-cover {
+    overflow: hidden;
+    height: calc(100vh);
+    min-height: 600px;
+}
+.site-block-cover .container,
+.site-block-cover .container .row {
+    padding-bottom: 0;
+    height: 100vh;
+    min-height: 60rem;
+}
+.site-block-cover .intro-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.site-block-cover .intro-text h1 {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.site-block-cover .intro-text p {
+    color: #999999;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.site-block-cover img {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
