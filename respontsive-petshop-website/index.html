@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-6 col-xl-2">
                             <h1 class="site-logo">
-                                <a href="">
+                                <a href="#sticky-wrapper">
                                     <img src="./assets/images/icons-petShop(250).png" alt="">
                                 </a>
                             </h1>
@@ -54,12 +54,33 @@
 
                         <div class="col-12 col-md-10 site-mobile-menu">
                             <nav class="site-navigation">
-                                <ul class="site-menu main-menu">
-                                    <li><a href="" class="nav-link">Home</a></li>
-                                    <li><a href="" class="nav-link">About</a></li>
-                                    <li><a href="" class="nav-link">Trainers</a></li>
-                                    <li><a href="" class="nav-link">Services</a></li>
-                                    <li><a href="" class="nav-link">Contact</a></li>
+                                <ul class="site-menu main-menu m-0">
+                                    <li><a href="#sticky-wrapper" class="nav-link">Home</a></li>
+                                    <li class="children-menu">
+                                        <a href="#about-section" class="nav-link">About</a>
+                                        <ul class="list-group dropdown">
+                                            <li class="">
+                                                <a href="#trainers-section">Trainers</a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#faq-section">FAQ</a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#testimonials-section">Testimonials</a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#gallery-section">
+                                                    Gallery
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#blog-section">Blog</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#trainers-section" class="nav-link">Trainers</a></li>
+                                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -999,6 +1020,9 @@
 
         document.querySelector('.site-menu-togger').onclick = () => {
             document.querySelector('.site-mobile-menu').classList.toggle('offcanvas-menu')
+        }
+        document.querySelector('.children-menu>a').onclick = () => {
+            document.querySelector('.dropdown').classList.toggle('show-menu')
         }
     </script>
 </body>
